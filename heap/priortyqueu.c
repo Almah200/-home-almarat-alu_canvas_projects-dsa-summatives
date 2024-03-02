@@ -62,18 +62,19 @@ void printArray(int array[], int size) {
 }
 
 int main() {
-    int array[10];
+    int array[6];
 
-    insert(array, 3);
-    insert(array, 4);
-    insert(array, 9);
-    insert(array, 5);
-    insert(array, 2);
+    insert(array, 20);
+    insert(array, 19);
+    insert(array, 14);
+    insert(array, 18);
+    insert(array, 17);
+    insert(array, 10);
 
     printf("Max-Heap array: ");
     printArray(array, size);
 
-    deleteRoot(array, 9);
+    deleteRoot(array, 20);
 
     printf("After deleting an element: ");
     printArray(array, size);

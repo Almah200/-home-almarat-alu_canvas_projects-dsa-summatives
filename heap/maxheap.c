@@ -87,5 +87,5 @@ printArray("Array is : ", arr, n);
 
 
 buildHeap(arr, n);
-printArray("Array representation of Heap is : ", arr, n);
+printArray("Array representation of Max-Heap is : ", arr, n);
 }

@@ -75,7 +75,7 @@ int main()
     printArray("Array is : ", arr, n);
 
     buildHeap(arr, n);
-    printArray("Array representation of Heap is : ", arr, n);
+    printArray("Array representation of Min-Heap is : ", arr, n);
 
     return 0;
 }

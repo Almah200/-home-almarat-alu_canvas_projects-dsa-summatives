@@ -1,11 +1,14 @@
- in this case Recursion function started slowing at 40 and stop 50. Dynamic 
+ in this case Recursion function started slowing at 40 and stop 49. Dynamic 
 programming performed well and very fast with even large number like 100.
 This are reasons why dynamic programming stands out from recursion
 
 In the recursive version, the function repeatedly
-recalculates the Fibonacci values for subproblems. For example
+recalculates the Fibonacci values for subproblems.
+the number of function calls grows exponentially with the input n
+ For example
 when calculating fibonacci(5), it will calculate fibonacci(3) twice, and
-fibonacci(2) three times, leading to an exponential number of redundant calculations.
+fibonacci(2) three times, leading to an exponential number of redundant calculations and hence the program
+stops slows and stops running at certain large numbers.
 
 On the other hand, the dynamic programming approach with memoization avoids recomputing
 the same values by storing them in a table (memo array in this case). When the function 
